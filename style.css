@@ -1,0 +1,89 @@
+*{
+    padding: 1px;
+    margin: 1px;
+}
+body{
+    background: rgb(177, 195, 247);
+    margin: 0px;
+    
+}
+header{
+    height: 50px;
+}
+
+.main-menu{
+    text-align:left;
+}
+.main-menu li {
+   display:inline-block;
+   background-color: yellow;
+   border: 1px solid black;
+   padding: 12px 12px;
+   margin-left: -.37em;
+   margin-right: -.35em;
+   font-family: sans-serif;
+   font-size: small;
+
+}
+.main-menu li a{
+    padding: 15px 100px ;
+   
+    
+}
+.main-menu li:hover{
+    background:rgb(195, 243, 99);
+    transition: 0.4s;
+}
+.title1{
+    text-align: center;
+    font-family: sans-serif;
+}
+.logo-img{
+    width: 35%;
+    margin: 0px ;
+    float: left;
+
+}
+.about-menu{
+    font-size:smaller;
+    font-style:oblique;
+    font-family:sans-serif;
+    line-height: 80%;
+    margin-left: 40%;
+}
+.about-par{
+    float: left;
+    font-size:small;
+    font-family: sans-serif;
+    
+}
+#title2{
+    color: mediumblue;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+p{
+
+    margin-bottom: 1em;
+}
+
+h1::first-line{
+    color: mediumblue;
+    margin-bottom: 1em;
+}
+/* #title3{
+    color: mediumblue;
+    margin-bottom: 1em;
+}
+#title4{
+    color: mediumblue;
+    margin-bottom: 1em;
+}
+#title5{
+    color: mediumblue;
+    margin-bottom: 1em;
+}
+#title6{
+    color: mediumblue;
+    margin-bottom: 1em;
+} */
